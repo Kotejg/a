@@ -13,7 +13,7 @@ function App() {
       {/* <Titulo text="bem vindo" numero={2}/>
     <Button label="cadastrar"/>
     <Button label="comprar"/> */} 
-  <Contador inicial={100} passos={10}/>
+  <Contador inicial={100} passos={10} min={0} max={160}/>
     </div>
   );
 }

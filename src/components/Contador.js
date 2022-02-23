@@ -9,14 +9,14 @@ function Contador (props){
 
     
     const incremento = () => { 
-        if (numero >= 160){
+        if (numero >= props.max){
             return alert("limite alcançado. 160")
         }
        setNumero(numero + props.passos );
         console.log(numero);
     }
     const decremento = () => {
-        if (numero <= 0){
+        if (numero <= props.min){
             return alert("não possivel menor q 0")
         }
         setNumero(numero - props.passos);
