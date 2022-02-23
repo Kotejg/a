@@ -1,0 +1,12 @@
+.btn{
+    color:#fff;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;  
+    margin: 2px;
+    padding: 10px 30px;
+}
+
+.brn:hover{
+    opacity: 8;
+}
