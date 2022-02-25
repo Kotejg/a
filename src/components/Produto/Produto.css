@@ -1,0 +1,35 @@
+.nome{
+    font-weight: bold;
+} 
+
+.marca{
+    color:darkkhaki;
+}
+
+.valor{
+    color:rgb(233, 236, 12); 
+    font-weight: bold;
+}
+
+.desc{
+    text-shadow: 2px;
+}
+
+.btn-comprar{
+    margin-top: 20px;
+    background-color: darkgreen;
+} 
+
+.item{
+    text-align: center;
+    border: 2px solid; 
+    width: 200px;
+    padding: 20px 5px;
+    border-radius: 5px;
+
+}
+
+
+.item:hover{
+    opacity: 0.90;
+}
